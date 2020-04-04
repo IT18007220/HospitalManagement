@@ -22,6 +22,7 @@ public String readItems()
  return AppointmentObj.readAppointments();
  }
 
+//Test
 	@POST
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
