@@ -21,7 +21,7 @@ public String readItems()
  {
  return AppointmentObj.readAppointments();
  }
-//Kena
+
 	@POST
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
